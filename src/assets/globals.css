@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	color: #000000;
+	background: #F7F7FA;
+	font-family: 'Roboto', sans-serif;
+  }
+  
+  body::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 180px;
+	background-color: #C8CFD8;
+	z-index: -1;
+  }
